@@ -1,0 +1,33 @@
+{
+  "name": "angular-popover",
+  "version": "2.0.0",
+  "author": "Auban le Grelle <auban@viamonkey.com>",
+  "homepage": "https://redcastor.io",
+  "authors": [
+    "Auban le Grelle",
+    "Tarun Dugar"
+  ],
+  "description": "Fully customizable and easy-to-use AngularJS 1.x directive for elegant multi-directional popovers.",
+  "license": "MIT",
+  "keywords": [
+    "popover",
+    "angular"
+  ],
+  "main": [
+    "dist/angular-popover.js",
+    "dist/angular-popover.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "**/*.txt",
+    ".jscsrc",
+    ".jshintrc",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.6.x"
+  }
+}
