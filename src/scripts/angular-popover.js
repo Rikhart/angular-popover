@@ -109,15 +109,19 @@
 
 				if(closeOnMouseleave) {
 					element[0].addEventListener('mouseleave', function() {
-						popover.classList.add('hide-popover-element');
-						triangle.classList.add('hide-popover-element');
+						if (popover) {
+                            popover.classList.add('hide-popover-element');
+                            triangle.classList.add('hide-popover-element');
+						}
 					});
 				}
 
 				if(mode !== 'click' && closeOnClick) {
 					element[0].addEventListener('click', function() {
-						popover.classList.add('hide-popover-element');
-						triangle.classList.add('hide-popover-element');
+						if (popover) {
+                            popover.classList.add('hide-popover-element');
+                            triangle.classList.add('hide-popover-element');
+						}
 					});
 				}
 
