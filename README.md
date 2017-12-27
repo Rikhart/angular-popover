@@ -6,7 +6,7 @@ Fully customizable and easy-to-use AngularJS 1.x directive for elegant multi-dir
 Installation
 -----
 ```code
-npm install ng-popover
+bower install rc-angular-popover
 ```
 
 Demo
