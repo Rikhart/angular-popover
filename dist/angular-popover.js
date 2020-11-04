@@ -1,4 +1,4 @@
-(function() {
+var mod = function() {
     var app = angular.module("angular-popover", []);
     app.directive("angularPopover", [ "$window", function($window) {
         return {
@@ -120,5 +120,6 @@
             }
         };
     } ]);
-})();
+    return app;
+}(module && module.exports) ? module.exports = mod() : mod();
 //# sourceMappingURL=angular-popover.js.map

@@ -1,7 +1,5 @@
-;(function() {
-
+var mod=function() {
 	var app = angular.module('angular-popover', []);
-
 	app.directive('angularPopover', ['$window', function($window) {
 		return {
 			restrict: 'A',
@@ -166,4 +164,8 @@
 			}
 		};
 	}]);
-})();
+  return app;
+}
+
+(module&&module.exports)?
+module.exports=mod():(mod)();

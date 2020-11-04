@@ -5,7 +5,7 @@
   "eqeqeq": true,
   "eqnull": true,
   "esnext": true,
-  "immed": true,
+  "immed": false,
   "jquery": true,
   "latedef": true,
   "newcap": true,
