@@ -10,6 +10,7 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
+  "main": "./dist/angular-popover.min.js",
   "scripts": {
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
